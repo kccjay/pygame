@@ -60,7 +60,7 @@ while not done:
     pygame.draw.rect(screen, GREEN, [0, 500, 800, 500])
     pygame.draw.polygon(screen, TAN, [[400, 280], [300,500], [500,500]])
     pygame.draw.ellipse(screen, SUN, [800,0, 680, 120], 1)
-    pygame.draw.polygon(screen, BLACK, [[370, 500], [430, 440], [370, 440],[430, 500]])
+    pygame.draw.polygon(screen, BLACK, [[370, 500], [370, 440], [430, 440], [430, 500]])
     
     draw_cloud(50, 150)
     draw_cloud(250, 75)
